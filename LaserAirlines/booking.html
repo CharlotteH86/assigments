@@ -5,56 +5,239 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap / CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/booking.css">
 
-		<title>Hello, world!</title>
-		
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-		<style> * {font-family: Quicksand, sans-serif;} </style>
+	<title>Booking - Laserair</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<style> * {font-family: Quicksand, sans-serif;} </style>
 		
   </head>
-  <body>
-    <!-- Nav-->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top n" style="background-color: #bbbbbb;">
-			<a class="navbar-brand" href="#">
-				<img src="images/laserair.png" class="d-inline-block align-top" alt="404 Image Not Found"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						
-						<a class="nav-link justify-content-end" href="index.html">Home<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="booking.html">Booking<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="flights.html">Flights<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+  <body style="height: 2000px;">
 
-
+	<!-- Nav-->
+	<nav class="navbar navbar-expand-lg navbar-light n" style="background-color: #bbbbbb;">
+		<a class="navbar-brand" href="#">
+			<img src="images/laserair.png" class="d-inline-block align-top" alt="Laserair icon">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link justify-content-end" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="booking.html">Booking<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="flights.html">Flights<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
     <!-- END Nav-->
 
-    
+	<!-- Header -->
+    <header class="container-fluid pt-5 bg1 mb-80">
 
+		<!-- Header text-->
+		<div class="row">
+			<h1 class="w-100 mt-5 mb-5 text-center text-white bold">Find a Flight</h1>
+		</div>
+
+		<!-- Search field -->
+		<div class="row w-75 mx-auto rounded company-color p-1">
+			
+			<input type="text" class="col-xl-5 form-control" placeholder="Where to?">
+			
+			<input type="date" name="bday" id="today" class="col-xl-3 form-control">
+			
+			<input type="date" name="bday" class="col-xl-3 form-control" value="2020-09-24">
+			
+			<button type="button" class="col-xl-1 btn btn-dark btn-block">Search</button>
+
+		</div>	
+	</header>
+	<!-- END Header -->
+
+	<!-- Deals -->
+	<main class="container-fluid">
+
+		<!-- Row 1 -->
+		<div class="row w-85 mx-auto">
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/15435436.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Berlin</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/27850632.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">London</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/36219998.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Canary Islands</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Row 2 -->
+		<div class="row w-85 mx-auto">
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/44753325.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Apls</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/51414467.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Amsterdam</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/61486222.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">New York City</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Row 3 -->
+		<div class="row w-85 mx-auto">
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/72545236.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Los Angeles</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/82193300.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Sydney</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/91851481.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Kairo</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Row 4 -->
+		<div class="row w-85 mx-auto">
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/10404916.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Hong Kong</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/11386444.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Barcelona</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<div class="card w-90 mx-auto mb-80 border rounded">
+					<img src="images/12406267.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title text-center">Vancouver</h5>
+						<p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque sit porro aspernatur, atque vel fuga perspiciatis excepturi enim.</p>
+						<a href="#" class="btn btn-dark btn-block">Go To Deal</a>
+						<div class="banner text-center rounded">Low CO2 Footprint</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<!-- END Deals -->
+
+	<!-- Footer-->
+
+
+
+	<!-- END Footer-->
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script> let today = new Date().toISOString().substr(0, 10);
+	document.querySelector("#today").value = today; </script>
+
   </body>
 </html>
