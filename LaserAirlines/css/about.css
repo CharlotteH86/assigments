@@ -89,3 +89,14 @@ h3 {
 		min-height: 200px;
   }
 }
+@media (max-width: 768px) {
+	
+	.tablet{
+		display: none;
+	}
+	
+	.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+		background-attachment: scroll;
+		min-height: 200px;
+  }
+}
