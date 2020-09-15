@@ -1,0 +1,37 @@
+header {
+    min-height: 400px;
+}
+
+.company-color {
+    background-color: rgba(119, 184, 113, 0.342);
+    box-shadow: 0 0 100px 0px ;
+}
+
+.bg1 {
+    background-image: url(../images/1596626668245.jpg);
+    background-position: 33% 67%;
+}
+.w-90 {
+    width: 90%;
+}
+.w-85 {
+    width: 85%;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.banner {
+    background-color: rgba(174, 250, 167, 0.603);
+    font-weight: 600;
+    height: 25px;
+    width: 150px;
+    border: 1px solid black;
+    position: absolute;
+    top: 15px;
+    left: -15px;
+}
