@@ -89,6 +89,14 @@ h3 {
 		min-height: 200px;
   }
 }
+
+@media (max-width: 1199px){
+		.fix{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
+
 @media (max-width: 768px) {
 	.p10{
 		padding-top:10px;
@@ -96,7 +104,8 @@ h3 {
 		padding-left:10px;
 		padding-right:10px;
 		max-width:100%;
-}
+	}
+
 	.tablet{
 		display: none;
 	}
@@ -104,5 +113,5 @@ h3 {
 	.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
 		background-attachment: scroll;
 		min-height: 200px;
-  }
+	}
 }
