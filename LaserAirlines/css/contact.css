@@ -1,0 +1,30 @@
+
+.h-300 {
+  height: 300px;
+}
+.hw-90 {
+  height: 85%;
+  width: 90%;
+}
+.mtb {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.contact-us {
+  font-size: 50px;
+}
+.contact-heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+.contact-text {
+  font-size: 20px;
+}
+
+.eee {
+  background-color: #eee;
+}
+.company-color {
+  background-color: #c2ffaf;
+}
