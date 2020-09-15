@@ -8,6 +8,7 @@
     <!-- Bootstrap / CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/booking.css">
+	<link rel="stylesheet" href="css/footer.css">
 
 	<title>Booking - Laserair</title>
 	
@@ -15,10 +16,10 @@
 	<style> * {font-family: Quicksand, sans-serif;} </style>
 		
   </head>
-  <body style="height: 2000px;">
+  <body>
 
 	<!-- Nav-->
-	<nav class="navbar navbar-expand-lg navbar-light n" style="background-color: #bbbbbb;">
+	<nav class="navbar navbar-expand-lg navbar-light n" style="background-color: #eee;">
 		<a class="navbar-brand" href="#">
 			<img src="images/laserair.png" class="d-inline-block align-top" alt="Laserair icon">
 		</a>
@@ -60,11 +61,11 @@
 			
 			<input type="text" class="col-xl-5 form-control" placeholder="Where to?">
 			
-			<input type="date" name="bday" id="today" class="col-xl-3 form-control">
+			<input type="date" name="bday" id="today" class="col-xl-3 col-6 form-control">
 			
-			<input type="date" name="bday" class="col-xl-3 form-control" value="2020-09-24">
+			<input type="date" name="bday" class="col-xl-3 col-6 form-control" value="2020-09-24">
 			
-			<button type="button" class="col-xl-1 btn btn-dark btn-block">Search</button>
+			<a href="flights.html" class="col-xl-1 p-0"><button type="button" class="btn btn-dark btn-block">Search</button></a>
 
 		</div>	
 	</header>
@@ -225,28 +226,34 @@
 	<!-- END Deals -->
 
 	<!-- Footer-->
-<footer class="page-footer font-small p10" style="background-color:#bbbbbb; text-align: center;">
-	<div class="row">
-		<div class="col-3">
-			<a href="contact.html">Contact Us!</a>
-		</div>
-		<div class="col-3">
-			test-2
-		</div>
-		<div class="col-3">
-			test-3
-		</div>
-		<div class="col-3">
-			test-4
-		</div>
+<footer class="container-fluid">
+	<div class="row pt-5 pl-5 pr-5 w-75 mx-auto">
+		<a href="#" class="col-lg-2 text-dark">
+			About LaserAirlines
+		</a>
+		<a href="#" class="col-lg-2 text-dark">
+			Advertising
+		</a>
+		<a href="#" class="col-lg-2 text-dark">
+			Privacy Policy
+		</a>
+		<a href="#" class="col-lg-2 text-dark">
+			Terms of Use
+		</a>
+		<a href="#" class="col-lg-2 text-dark">
+			Site Map
+		</a>
+		<a href="#" class="col-lg-2 text-dark">
+			Accessibility
+		</a>
 	</div>
 	<!-- Copyright -->
-	<div class="footer-copyright text-center py-3">© 2020 Copyright: Laser Airlines</div>
+	<div class="row justify-content-center">
+		<div class="p-5">© 2020 Copyright: Laser Airlines</div>
+	</div>
 	<!-- Copyright -->
 
 </footer>
-
-
 	<!-- END Footer-->
 
 
