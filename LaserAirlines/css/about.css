@@ -26,6 +26,7 @@
 	background-size: cover;
 
 }
+
 .bgimg-1 {
 	background-image:url("../images/laser.png");
 	min-height: 600px;
@@ -76,9 +77,15 @@ h3 {
 	color: #111;
 }
 
-/* Turn off parallax scrolling for tablets and phones */
+/* tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+	
+	.tablet{
+		display: none;
+	}
+	
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     background-attachment: scroll;
+		min-height: 200px;
   }
 }
