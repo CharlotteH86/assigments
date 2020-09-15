@@ -8,11 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
-		<title>Hello, world!</title>
-		
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-		<style> * {font-family: Quicksand, sans-serif;} </style>
-		
+    <title>flights departures arrivals status</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+    <style>
+      * {
+        font-family: Quicksand, sans-serif;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light sticky-top n" style="background-color: #bbbbbb">
@@ -40,7 +43,111 @@
         </ul>
       </div>
     </nav>
-    <h1>Hello, world!</h1>
+    <div class="container">
+      <div class="jumbotron mt-3">
+        <h1 class="text-center">Flight departures</h1>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Expected</th>
+              <th scope="col">Destination</th>
+              <th scope="col">Status</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">06:00</th>
+              <td>06:30</td>
+              <td>Berlin</td>
+              <td>Boarding</td>
+              <td>Gate D3</td>
+            </tr>
+            <tr>
+              <th scope="row">09:30</th>
+              <td>09:45</td>
+              <td>London</td>
+              <td>To Gate</td>
+              <td>Gate B2</td>
+            </tr>
+            <tr>
+              <th scope="row">13:00</th>
+              <td>13:20</td>
+              <td>Canary Islands</td>
+              <td></td>
+              <td>Gate C5</td>
+            </tr>
+            <tr>
+              <th scope="row">18:10</th>
+              <td>18:10</td>
+              <td>New York</td>
+              <td></td>
+              <td>Gate C7</td>
+            </tr>
+            <tr>
+              <th scope="row">21:20</th>
+              <td>21:20</td>
+              <td>Amsterdam</td>
+              <td>cancelled</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="jumbotron">
+        <h1 class="text-center">Flight arrivals</h1>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Expected</th>
+              <th scope="col">Destination</th>
+              <th scope="col">Status</th>
+              <th scope="col">Terminal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">07:00</th>
+              <td>06:30</td>
+              <td>Los Angeles</td>
+              <td>Landing</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">09:30</th>
+              <td>09:45</td>
+              <td>London</td>
+              <td>Bagage</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">13:00</th>
+              <td>13:20</td>
+              <td>Canary Islands</td>
+              <td></td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th scope="row">18:10</th>
+              <td>18:10</td>
+              <td>New York</td>
+              <td></td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">21:20</th>
+              <td>21:20</td>
+              <td>Amsterdam</td>
+              <td>cancelled</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
