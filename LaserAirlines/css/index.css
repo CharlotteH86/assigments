@@ -1,5 +1,8 @@
 Index
 
-.bg {
-	background-image: url("images/plane1.jpg");
+.view {
+	background-image: url(images/plane1.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center center;"
 }
