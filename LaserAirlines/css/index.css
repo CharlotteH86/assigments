@@ -8,3 +8,8 @@ Index
 	opacity: 0.6;
 	border-radius: 25px;
 }
+@media (max-width: 700px;) {
+  body {
+    background-color: lightblue;
+  }
+}
