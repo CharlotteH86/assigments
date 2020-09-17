@@ -28,3 +28,9 @@
 .company-color {
   background-color: #c2ffaf;
 }
+
+@media (max-width: 461px) {
+  .mt-5 {
+    margin-top: 0rem !important;
+  }
+}
