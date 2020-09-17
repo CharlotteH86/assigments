@@ -1,24 +1,15 @@
-/* unvisited link */
-a:link {
-	color: red;
-    text-decoration: none;
+
+
+@media (max-width:407px){
+	.loglarge{
+		display:none!important;
+	}
 }
 
-/* visited link */
-a:visited {
-	color: red;
-    text-decoration: none;
-	
+
+@media (min-width:407px){
+	.logsmall{
+		display:none!important;
+	}
 }
 
-/* mouse over link */
-a:hover {
-	color: red;
-    text-decoration: underline;
-}
-
-/* selected link */
-a:active {
-	color: red;
-    text-decoration: underline;
-}
