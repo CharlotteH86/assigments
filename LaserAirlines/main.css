@@ -1,4 +1,7 @@
-
+.fix{
+		margin-top: 0px!important;
+		margin-bottom: 0px!important;
+	}
 
 @media (max-width:407px){
 	.loglarge{
